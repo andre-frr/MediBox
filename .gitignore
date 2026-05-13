@@ -1,0 +1,60 @@
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# PlatformIO
+.pio/
+.pioenvs/
+.piolibdeps/
+.pio/build/
+
+# Arduino/ESP32 build artifacts
+*.elf
+*.hex
+*.bin
+*.map
+*.d
+*.o
+*.a
+*.so
+*.dll
+*.exe
+*.out
+*.obj
+*.lst
+
+# C/C++ intermediate files
+*.i
+*.ii
+*.s
+*.lo
+*.la
+*.gch
+*.pch
+*.dep
+
+# Logs
+*.log
+
+# OS/Editor
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
+!.vscode/extensions.json
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+
+# JetBrains IDEs
+.idea/
+*.iml
+
+# Env/secrets
+.env
+.env.*
+!.env.example
